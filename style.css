@@ -2,6 +2,7 @@
   color:blue;
   text-align:center;
   margin:10px;
+    font-weight: bold;
 }
 
 #quote{
@@ -14,21 +15,27 @@
   background:orange;
   overflow:auto;
   font-size:1.5em;
+  float: none;
  }
 
 #button1{
   margin:20px 50px;
   padding:10px 20px; 
+  display: block;
+  position: relative;
+  float: right;
   
 }
 
 #tweetQuote{
     padding:10px 20px; 
     margin:20px 50px;
+  display: block;
+    position: relative;
+    float: left;
 }
 
 .tweetbutton{
     width: 550px;
     margin:10px auto;
-    padding:0px 60px;
-}
+  }

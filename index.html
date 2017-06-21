@@ -9,15 +9,23 @@
 </head>
 
 <body>
+    <div class="container">
+        
     <h1 class="center">Simple Quote Generator</h1>
-    
-     <div id="quote" class="well">
+    <div class="row">
+     <div id="quote" class="well col col-xs-8">
 	<!--Quote here -->
-</div>
- <div class="tweetbutton">   
-<input id="button1" type="button" class="btn btn-primary" value="New Quote">
-<a id="tweetQuote" class="btn btn-info" href="#">Tweet this</a>
     </div>
+    </div>
+<div class="row col col-xs-12">
+ <div class="tweetbutton col col-xs-6">   
+<input id="button1" type="button" class="btn btn-primary" value="New Quote">
+</div>
+<div class="col col-xs-6">
+<a id="tweetQuote" class="btn btn-info" href="#">Tweet this</a>
+</div>
+</div>
+</div>
    
    <script
   src="https://code.jquery.com/jquery-1.12.4.js"
@@ -27,5 +35,6 @@
     <script src="BtStrapdemo/js/bootstrap.js"></script>    
  
     <script src="javascript.js"></script>
+    </div>
 </body>
 </html>
